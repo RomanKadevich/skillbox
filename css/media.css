@@ -1,0 +1,112 @@
+@media only screen and (max-width: 768px) {
+    .header__container {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .header__logo {
+        margin-bottom: 30px;
+    }
+
+    .section-benifits__item {
+        flex-direction: column;
+    }
+
+    .section-benifits__icon {
+        margin-bottom: 15px;
+    }
+}
+@media screen and (max-width: 613px) and (min-width: 501px)   {
+    .section-curs__btn {
+        padding: 20.5px 48px;
+        width: 180px;
+height: 60px;
+align-self: center;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .row-wrap {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .section-benifits__item {
+        flex-direction: row;
+    }
+
+    .col {
+        width: 100%;
+    }
+    .menu {
+        display: block;} 
+        
+    .screen{
+            display: block;
+        }
+    .nav__list {
+        display: none;
+    }
+
+    .nav__burger {
+        display: inline-block;
+    }
+
+    .header__container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header__logo {
+        margin-bottom: 0px;
+    }
+
+    .section-hero__heading {
+        margin-bottom: 15px;
+        font-size: 30px;
+        line-height: 100%;
+    }
+
+    .section-hero__description {
+        font-size: 16px;
+        line-height: 130%;
+        margin-bottom: 50px;
+
+    }
+    .section-hero__info {
+        padding-top: 0;
+        padding-bottom: 0;
+      }
+      .section-hero{
+        padding-top: 77px;
+        padding-bottom: 135px;
+      }
+      .section-benifits__icon{
+        margin: 0 30px 0 0;
+      }
+      .col--pad{
+       padding-bottom: 30px;
+
+
+    }
+    .section-teachers{
+        padding-top: 50px;
+       
+      }
+      .card__image{
+        display: flex;
+        justify-content: center;
+      }
+      .section-teachers__heading{
+        font-size: 20px;
+      }
+      .section-curs__heading{
+        font-size: 20px;
+      }
+      .section-curs{
+        padding-top: 50px;
+       
+      }
+     
+     
+}
